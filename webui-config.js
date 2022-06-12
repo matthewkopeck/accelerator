@@ -8,16 +8,17 @@
 var DeploymentConfig = {
   authEnabled: true,
   authType: "aad",
-  farmbeatsVersion: "$FARMBEATS_VERSION$",
+  farmbeatsVersion: "1.5",
   aad: {
-    tenant: "$TENANT_ID$",
-    appId: "$APP_ID$",
+    tenant: "c0624c2e-89b9-4fec-bc2c-08a27801f471",
+    appId: "92894198-d334-46f3-8743-6be8415fd17c",
     instance: "https://login.microsoftonline.com/"
   },
-  backendEndpoint: "$BACKEND_ENDPOINT$",
-  tsiEndpoint: "$TSI_ENDPOINT$",
-  azureMapsKey: "$AZURE_MAPS_KEY$",
-  appInsightsInstrumentationKey: "$APP_INSIGHTS_INSTRUMENTATION_KEY$"
+  //backendEndpoint: "$BACKEND_ENDPOINT$",
+  backendEndpoint: "api://92894198-d334-46f3-8743-6be8415fd17c",
+  tsiEndpoint: "https://insights.timeseries.azure.com/preview?environmentId=36ffebe6-f00b-46e2-93ee-c12edc06a863&tid=c0624c2e-89b9-4fec-bc2c-08a27801f471",
+  azureMapsKey: "DcmSz5hsKyoerkIzZUxlT_Lrepvato6EgnXmamCEn_Q",
+  appInsightsInstrumentationKey: "0cf91a3f-20e8-4ec8-b8ea-ebce56c65fac"
 };
 
 // SIG // Begin signature block
