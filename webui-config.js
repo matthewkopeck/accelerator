@@ -6,7 +6,7 @@
 
 // eslint-disable-next-line
 var DeploymentConfig = {
-  authEnabled: $AUTH_ENABLED$,
+  authEnabled: true,
   authType: "aad",
   farmbeatsVersion: "$FARMBEATS_VERSION$",
   aad: {
