@@ -1,0 +1,11 @@
+<!-- Copyright (c) Microsoft. All rights reserved. -->
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M8 -0.0666504L0 15.9334H16L8 -0.0666504ZM14.275 14.8667H1.72499L7.99994 2.31671L14.275 14.8667ZM8.53333 6.33335V11.6667H7.46667V6.33335H8.53333ZM8.53333 12.7334H7.46667V13.8H8.53333V12.7334Z" fill="white"/>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="16" height="16" fill="white"/>
+</clipPath>
+</defs>
+</svg>
